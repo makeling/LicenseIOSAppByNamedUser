@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LicenseIOSAppByNamedUser_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dwa-zB-ova" customClass="AGSMapView">
+                                <rect key="frame" x="16" y="20" width="343" height="597"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tnd-y0-OSM">
+                                <rect key="frame" x="0.0" y="612" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Active License" id="O4W-oZ-N6A">
+                                        <connections>
+                                            <action selector="activeLicense:" destination="BYZ-38-t0r" id="LVR-bc-sae"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tnd-y0-OSM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="300" id="4qY-QQ-1QT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dwa-zB-ova" secondAttribute="trailing" id="99Q-Gv-hZI"/>
+                            <constraint firstItem="tnd-y0-OSM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="C1I-cY-YfS"/>
+                            <constraint firstItem="Dwa-zB-ova" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FgN-Pm-sQ8"/>
+                            <constraint firstItem="Dwa-zB-ova" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KX6-Vq-wBC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Dwa-zB-ova" secondAttribute="bottom" constant="50" id="Ni0-ZC-Obh"/>
+                            <constraint firstItem="tnd-y0-OSM" firstAttribute="centerX" secondItem="Dwa-zB-ova" secondAttribute="centerX" id="OK6-sj-cva"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Dwa-zB-ova" id="Ead-Iw-A1s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-788" y="-277"/>
+        </scene>
+    </scenes>
+</document>

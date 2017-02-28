@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1839B1C1E651912002364A9 /* LicenseiOSAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1839B191E651912002364A9 /* LicenseiOSAppViewController.swift */; };
+		E1839B1D1E651912002364A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1839B1A1E651912002364A9 /* LoginViewController.swift */; };
+		E1839B221E651A12002364A9 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1839B211E651A12002364A9 /* ArcGIS.bundle */; };
+		E1839B4C1E651D02002364A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1839B4B1E651D02002364A9 /* Main.storyboard */; };
+		E1BAB75D1E52DCBE00CEB86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BAB75C1E52DCBE00CEB86A /* AppDelegate.swift */; };
+		E1BAB7641E52DCBE00CEB86A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BAB7631E52DCBE00CEB86A /* Assets.xcassets */; };
+		E1BAB7671E52DCBE00CEB86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BAB7651E52DCBE00CEB86A /* LaunchScreen.storyboard */; };
+		E1BAB7701E52DEC300CEB86A /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BAB76F1E52DEC300CEB86A /* ArcGIS.framework */; };
+		E1BAB7721E52DEF000CEB86A /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BAB7711E52DEF000CEB86A /* libc++.1.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1839B191E651912002364A9 /* LicenseiOSAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseiOSAppViewController.swift; sourceTree = "<group>"; };
+		E1839B1A1E651912002364A9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E1839B211E651A12002364A9 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../../Library/SDKs/ArcGIS/iOS/Frameworks/Static/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		E1839B4B1E651D02002364A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E1BAB7591E52DCBE00CEB86A /* LicenseIOSAppByNamedUser_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicenseIOSAppByNamedUser_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BAB75C1E52DCBE00CEB86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1BAB7631E52DCBE00CEB86A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1BAB7661E52DCBE00CEB86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1BAB7681E52DCBE00CEB86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BAB76F1E52DEC300CEB86A /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArcGIS.framework; path = ../../Library/SDKs/ArcGIS/iOS/Frameworks/Static/ArcGIS.framework; sourceTree = "<group>"; };
+		E1BAB7711E52DEF000CEB86A /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1BAB7561E52DCBE00CEB86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BAB7721E52DEF000CEB86A /* libc++.1.dylib in Frameworks */,
+				E1BAB7701E52DEC300CEB86A /* ArcGIS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1BAB7501E52DCBE00CEB86A = {
+			isa = PBXGroup;
+			children = (
+				E1BAB75B1E52DCBE00CEB86A /* LicenseIOSAppByNamedUser_Swift */,
+				E1BAB75A1E52DCBE00CEB86A /* Products */,
+				E1BAB76E1E52DEC300CEB86A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1BAB75A1E52DCBE00CEB86A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1BAB7591E52DCBE00CEB86A /* LicenseIOSAppByNamedUser_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BAB75B1E52DCBE00CEB86A /* LicenseIOSAppByNamedUser_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E1839B4B1E651D02002364A9 /* Main.storyboard */,
+				E1839B211E651A12002364A9 /* ArcGIS.bundle */,
+				E1839B191E651912002364A9 /* LicenseiOSAppViewController.swift */,
+				E1839B1A1E651912002364A9 /* LoginViewController.swift */,
+				E1BAB75C1E52DCBE00CEB86A /* AppDelegate.swift */,
+				E1BAB7631E52DCBE00CEB86A /* Assets.xcassets */,
+				E1BAB7651E52DCBE00CEB86A /* LaunchScreen.storyboard */,
+				E1BAB7681E52DCBE00CEB86A /* Info.plist */,
+			);
+			path = LicenseIOSAppByNamedUser_Swift;
+			sourceTree = "<group>";
+		};
+		E1BAB76E1E52DEC300CEB86A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1BAB7711E52DEF000CEB86A /* libc++.1.dylib */,
+				E1BAB76F1E52DEC300CEB86A /* ArcGIS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1BAB7581E52DCBE00CEB86A /* LicenseIOSAppByNamedUser_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BAB76B1E52DCBE00CEB86A /* Build configuration list for PBXNativeTarget "LicenseIOSAppByNamedUser_Swift" */;
+			buildPhases = (
+				E1BAB7551E52DCBE00CEB86A /* Sources */,
+				E1BAB7561E52DCBE00CEB86A /* Frameworks */,
+				E1BAB7571E52DCBE00CEB86A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LicenseIOSAppByNamedUser_Swift;
+			productName = LicenseIOSAppByNamedUser_Swift;
+			productReference = E1BAB7591E52DCBE00CEB86A /* LicenseIOSAppByNamedUser_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1BAB7511E52DCBE00CEB86A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = esrichina.com;
+				TargetAttributes = {
+					E1BAB7581E52DCBE00CEB86A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = GDPQ8EGCXX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E1BAB7541E52DCBE00CEB86A /* Build configuration list for PBXProject "LicenseIOSAppByNamedUser_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1BAB7501E52DCBE00CEB86A;
+			productRefGroup = E1BAB75A1E52DCBE00CEB86A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BAB7581E52DCBE00CEB86A /* LicenseIOSAppByNamedUser_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1BAB7571E52DCBE00CEB86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1839B221E651A12002364A9 /* ArcGIS.bundle in Resources */,
+				E1BAB7671E52DCBE00CEB86A /* LaunchScreen.storyboard in Resources */,
+				E1BAB7641E52DCBE00CEB86A /* Assets.xcassets in Resources */,
+				E1839B4C1E651D02002364A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1BAB7551E52DCBE00CEB86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1839B1C1E651912002364A9 /* LicenseiOSAppViewController.swift in Sources */,
+				E1839B1D1E651912002364A9 /* LoginViewController.swift in Sources */,
+				E1BAB75D1E52DCBE00CEB86A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1BAB7651E52DCBE00CEB86A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1BAB7661E52DCBE00CEB86A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1BAB7691E52DCBE00CEB86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1BAB76A1E52DCBE00CEB86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1BAB76C1E52DCBE00CEB86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GDPQ8EGCXX;
+				FRAMEWORK_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Static";
+				INFOPLIST_FILE = LicenseIOSAppByNamedUser_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "makl.LicenseIOSAppByNamedUser-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E1BAB76D1E52DCBE00CEB86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GDPQ8EGCXX;
+				FRAMEWORK_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Static";
+				INFOPLIST_FILE = LicenseIOSAppByNamedUser_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "makl.LicenseIOSAppByNamedUser-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1BAB7541E52DCBE00CEB86A /* Build configuration list for PBXProject "LicenseIOSAppByNamedUser_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BAB7691E52DCBE00CEB86A /* Debug */,
+				E1BAB76A1E52DCBE00CEB86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BAB76B1E52DCBE00CEB86A /* Build configuration list for PBXNativeTarget "LicenseIOSAppByNamedUser_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BAB76C1E52DCBE00CEB86A /* Debug */,
+				E1BAB76D1E52DCBE00CEB86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1BAB7511E52DCBE00CEB86A /* Project object */;
+}
