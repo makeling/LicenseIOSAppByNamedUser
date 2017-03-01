@@ -10,13 +10,13 @@ This repository is a demo for show how to license iOS App by ArcGIS Online or Po
 ## Steps
 
 
-1. Run the project(LicenseIOSAppByNamedUser_ObjC or LicenseIOSAppByNamedUser_Swift) in Xcode;
+1, Run the project(LicenseIOSAppByNamedUser_ObjC or LicenseIOSAppByNamedUser_Swift) in Xcode;
 
-2. Click "ActivateLicense" button, navigate to Login view, Input Name & password;
+2, Click "ActivateLicense" button, navigate to Login view, Input Name & password;
 
 ![](https://raw.githubusercontent.com/serverteamCN/TechnicalArticles/master/pictures/LicenseIOSAppByNamedUser01.png)  
 
-3. Finished Input,Then Click "Done", waiting...,then the watermarked image disappeared
+3, Finished Input,Then Click "Done", waiting...,then the watermarked image disappeared
 
 ![](https://raw.githubusercontent.com/serverteamCN/TechnicalArticles/master/pictures/LicenseIOSAppByNamedUser02.png)
 
